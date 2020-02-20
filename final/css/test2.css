@@ -1,0 +1,981 @@
+/* 667 og*/
+
+#main{
+
+    height: 2394px;
+    width:375px;
+    background-image: url("../pictures/imagessz/background.jpg");
+    z-index: -2;
+}
+
+#navigation{
+
+    height:10px;
+    width:375;
+    background-color: rgba(172, 127, 59, 0);
+ 
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+
+#icon1{
+
+    height: 50px;
+    width:50px;
+    background-image: url("../pictures/imagessz/icon_\ 3.png");
+    position: fixed;
+    top:15px;
+    left:310px;
+    background-size: 100%;
+    z-index: 141;
+    
+}
+
+
+#icon2{
+
+    height: 50px;
+    width:50px;
+    background-image: url("../pictures/imagessz/icon_\ 2.png");
+    position: fixed;
+    top:15px;
+    left:260px;
+    background-size: 100%;
+    z-index: 141;
+}
+
+
+#icon3{
+
+    height: 50px;
+    width:50px;
+    background-image: url("../pictures/imagessz/icon_\ 1.png");
+    position: fixed;
+    top:15px;
+    left:210px;
+    background-size: 100%;
+    z-index: 149;
+}
+
+#headline{
+    height: 60px;
+    width:120px;
+    background-color: rgba(210, 105, 30, 0);
+    position: absolute;
+    top:45px;
+    left:50px;
+    font-size: 67px;
+    z-index: 4;
+    font-family: 'Asap', sans-serif;    
+
+}
+
+#rose22{
+
+    height:150px;
+    width: 150px;
+    background-image: url("../pictures/imagessz/kisspng-watercolor-flowers-watercolor-painting-pink-flowe-rose-5a995a2ca2deb2.8231926415199995326671.png");
+    position: absolute;
+    top:160px;
+    left:200px;
+    background-size:100%;
+    z-index: 4;
+    
+
+}
+
+#rose29{
+
+    height:120px;
+    width: 120px;
+    background-image: url("../pictures/imagessz/kisspng-watercolor-flowers-watercolor-painting-pink-flowe-rose-5a995a2ca2deb2.8231926415199995326671.png");
+    position: absolute;
+    top:90px;
+    left:35px;
+    background-size:95%;
+    z-index: 4;
+    rotate: 90deg;
+    
+
+}
+
+#gambar{
+
+    height:300px;
+    width: 250px;
+    background-image: url("../pictures/imagessz/Untitled_Artwork\ 1.png");
+    position: absolute;
+    top:135px;
+    left:65px;
+    background-size: 90%;
+    background-position-y: -50px;
+    z-index: 2;
+
+}
+
+#gambar99{
+
+    height:250px;
+    width: 200px;
+    background-image: url('../pictures/imagessz/seesee-15.png');
+    position: absolute;
+    top:135px;
+    left:70px;
+  z-index: 1;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#design11{
+
+    height:95px;
+    width: 120px;
+    background-image: url("../pictures/imagessz/working11.png");
+    position: absolute;
+    top:370px;
+    left:50px;
+    background-size:100%;
+    z-index: 4;
+    
+   
+    
+
+}
+
+#design44{
+
+    height:350px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:-10px;
+    left:35px;
+    background-size:100%;
+    z-index: 4;
+    
+   
+    
+
+}
+
+#design88{
+
+    height:260px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:124.5px;
+    left:315px;
+    background-size:100%;
+    
+
+}
+
+#design22{
+
+    height:95px;
+    width: 120px;
+    background-image: url("../pictures/imagessz/working11.png");
+    position: absolute;
+    top:100px;
+    left:240px;
+    background-size:100%;
+    z-index: 2;
+    transform: rotate(180deg);
+   
+   
+}
+
+#design33{
+
+    height:190px;
+    width: 100px;
+    background-image: url("../pictures/imagessz/seesee-16.png");
+    position: absolute;
+    top:2094px;
+    left:5px;
+    background-size: 100%;  animation: arrows 15s infinite;
+    animation-iteration-count: infinite;
+     -webkit-animation: arrows 15s;  /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
+  }
+
+  @keyframes arrows {
+    0% {
+      top: 0%;
+    }
+    100% {
+      bottom: 100%;
+    }
+  }
+    
+   
+
+
+ #countdown{
+    height:50px;
+    width: 250px;
+   color: rgb(244, 146, 164);
+    position: absolute;
+    background-color: rgba(205, 134, 63, 0);
+    
+    top:380px;
+    right:40px;
+    font-size:31px;
+    
+
+
+} 
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-weight: normal;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 12px;
+  }
+
+*/
+
+#texture{
+
+    height:50px;
+    width: 200px;
+   color: rgb(148, 0, 75);
+   background-color: rgba(102, 51, 153, 0);
+    position: absolute;
+    top:415px;
+    left:129px;
+    font-size:13px;
+    font-family: 'Asap', sans-serif;   
+   
+
+}
+
+#text1{
+
+    height:150px;
+    width: 180px;
+    background-color: rgba(148, 0, 75, 0);
+    position: absolute;
+    top:480px;
+    left:50px;
+    font-size:13px;
+    font-family: 'Asap', sans-serif;  
+    color: rgba(148, 0, 75); 
+    word-spacing: 5px;
+}
+
+#updates{
+
+ 
+    height:150px;
+    width: 100px;
+    background-image: url("../pictures/imagessz/working\ 2-13.png");
+    position: absolute;
+    top:450px;
+    left:240px;
+    background-size: 100%;
+    
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.156));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.313));
+  }
+    
+
+*/
+/** second page**/
+
+#gambark{
+
+    height:400px;
+    width: 214px;
+    background-color: rgb(118, 83, 123);
+    position: absolute;
+    top:780px;
+    left:160px;
+   
+}
+
+#gambarrrr{
+
+
+    height:300px;
+    width: 214px;
+    background-image: url("../pictures/page2/122-18.png");
+    position: absolute;
+    top:780px;
+    left:120px;
+    background-size: 100%;
+    
+       
+}
+
+
+#lines{
+
+    height:100px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:620px;
+    left:315px;
+    background-size:100%;
+    
+
+}
+
+#lines2{
+
+    height:220px;
+    width: 230px;
+    background-image: url("../pictures/page2/working\ 2-18.png");
+    position: absolute;
+    top:684px;
+    left:125px;
+    background-size:100%;
+    transform: rotate(-9deg)
+    
+
+}
+
+#designn{
+
+    height:200px;
+    width: 230px;
+    background-image: url("../pictures/page2/working\ 2-18.png");
+    position: absolute;
+    top:1248px;
+    
+    background-size:100%;
+    transform: rotate(-180deg)
+    
+
+}
+
+#lines3{
+
+    height:400px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:750px;
+    left:315px;
+    background-size:100%;
+    z-index: 6;
+    
+
+}
+#headlineone{
+
+    height:200px;
+    width: 130px;
+    color: rgb(244, 146, 164);
+    position: absolute;
+    top:815px;
+    left:50px;
+   font-size: 35px;
+   line-height: 35px;
+   text-align: center;
+
+
+}
+#headline2{
+
+    height:200px;
+    width: 130px;
+    background-image: url("../pictures/page2/working\ 2-20.png");
+    position: absolute;
+    top:780px;
+    left:20px;
+   background-size: 113%;
+}
+
+#roses{
+
+    height:200px;
+    width: 200px;
+    background-image: url("../pictures/imagessz/kisspng-watercolor-flowers-watercolor-painting-pink-flowe-rose-5a995a2ca2deb2.8231926415199995326671.png");
+    position: absolute;
+    top:920px;
+    left:50px;
+    background-size:100%;
+   
+}
+
+
+#roses2{
+
+    height:150px;
+    width: 154px;
+    background-image: url("../pictures/imagessz/kisspng-watercolor-flowers-watercolor-painting-pink-flowe-rose-5a995a2ca2deb2.8231926415199995326671.png");
+    position: absolute;
+    top:1000px;
+    left:130px;
+    transform: rotate(90DEG);
+    background-size:100%;
+   
+}
+
+#text2{
+
+    height:100px;
+    width: 130px;
+    font-family: 'Asap', sans-serif;  
+    color: rgba(148, 0, 75);
+    position: absolute;
+    top:1175px;
+    left:120px;    
+}
+#text3{
+
+    height:100px;
+    width: 130px;
+    font-family: 'Asap', sans-serif;  
+    color: rgba(148, 0, 75);
+    position: absolute;
+    top:1200px;
+    left:155px;    
+}
+
+#text8{
+
+    height:100px;
+    width: 130px;
+    font-family: 'Asap', sans-serif;  
+    color: rgba(148, 0, 75);
+    position: absolute;
+   
+    top:1225px;
+    left:195px;    
+}
+
+#lines5{
+    height:200px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:1100px;
+    right:155px;
+    background-size:100%;
+    transform:rotate(90deg)
+}    
+#lines6{
+    height:200px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    
+    top:1155px;
+    right:155px;
+    background-size:100%;
+    transform:rotate(90deg)
+}    
+
+#lines7{
+    height:200px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:1125px;
+    right:155px;
+    background-size:100%;
+    transform:rotate(90deg)
+}    
+
+#infoo{
+
+    
+    height:145px;
+    width: 100px;
+    background-image:url("../pictures/page2/YEHE-21.png");
+    position: absolute;
+    top:1150px;
+    left:240px; 
+    background-size: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.156));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.313));
+}
+#lines77{
+
+    height:450px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:1110px;
+    left:35px;
+    background-size:100%;
+    z-index: 4;
+    
+   
+    
+
+}
+
+/* 3rd pag*/
+
+
+
+
+
+#rose9{
+
+    
+    height:160px;
+    width: 160px;
+    background-image: url('../pictures/imagessz/kissclipart-blue-carnation-flower-png-clipart-carnation-flower-2b94b201ef6e420f.png');
+    position: absolute;
+    top:1620px;
+    left:200px;
+    z-index: 50;
+    background-size:100%
+  
+}
+
+#gambar4{
+
+        
+    height:210px;
+    width: 190px;
+    background-image: url('../pictures/imagessz/b122b1a4b77e9fe4c2c45ce8df70ddce.jpg');
+    position: absolute;
+    top:1480px;
+    left:150px; 
+    z-index: 40;
+    background-size: 100%;
+    
+
+}
+
+#gambar5{
+
+    height:210px;
+    width: 190px;
+    background-image:url('../pictures/imagessz/EQVbR_cWAAUaYAT.jfif');
+    position: absolute;
+    top:1620px;
+    left:50px; 
+    z-index: 40;
+    background-size: 190%;
+    background-position-x: 50%;
+    background-position-y: 45%;
+
+}
+
+#rosee{
+
+ height:130px;
+width: 120px;
+background-image: url('../pictures/imagessz/kissclipart-blue-carnation-flower-png-clipart-carnation-flower-2b94b201ef6e420f.png');
+position: absolute;
+top:1550px;
+left:65px;
+background-size:100%;
+}  
+
+#text45{
+
+    height:20px;
+    width: 300px;
+    font-family: 'Asap', sans-serif;  
+    color: rgba(148, 0, 75);
+    font-size: 13px;;
+    position: absolute;
+    top:1840px;
+    left:40px;
+    
+
+}
+
+#text5{
+
+    height:57px;
+    width: 200px;
+    background-image:url('../pictures/imagessz/welc-10-10.jpg');
+    position: absolute;
+    top:1870px;
+    left:150px;
+    z-index: 40;
+    background-size:100%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.156));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.313));
+
+}
+
+#linewow{
+    height:500px;
+    width: 40px;
+    background-image: url("../pictures/imagessz/seesee-17.png");
+    position: absolute;
+    top:1270px;
+    
+    background-size:100%;
+    transform:rotate(90deg);
+    z-index: 41;
+
+}
+
+
+#design898{
+
+    height:200px;
+    width: 230px;
+    background-image: url("../pictures/page2/working\ 2-18.png");
+    position: absolute;
+    top:1898px;
+    
+    background-size:100%;
+    transform: rotate(-165deg)
+    
+
+}
+
+
+/* page 4*/
+
+#flower{
+
+    height:200px;
+    width: 200px;
+    background-image: url('../pictures/imagessz/kisspng-watercolor-flowers-watercolor-painting-pink-flowe-rose-5a995a2ca2deb2.8231926415199995326671.png');
+    position: absolute;
+    top:1930px;
+    left:7px;
+    z-index: 40;
+    background-size: 100%;
+}
+
+#booxx{
+
+    height:240px;
+    width: 375px;
+    background-image: url('../pictures/imagessz/213128.jpg');
+    position: absolute;
+    top:2050px;
+    background-size: 150%;
+    background-position-x: center;
+    background-position-y: 40%;
+    opacity: 80%;
+    
+}
+
+#tidx{
+
+    height:60px;
+    width: 190px;
+    background-image: url('../pictures/imagessz/sagg-10.png');
+    position: absolute;
+    top:150px;
+    left:100px;
+    background-size:100%;
+ 
+    
+}
+
+
+#ticcx{
+
+    height:60px;
+    width: 190px;
+    
+    position: absolute;
+    top:69px;
+    left:100px;
+    background-size:100%;
+    font-family: 'Asap', sans-serif;  
+    color: rgba(148, 0, 75);
+    font-size: 30px;
+    z-index: 45;
+    line-height: 35px;
+    text-align: center;
+    
+}
+
+#ticcx2{
+
+    height:60px;
+    width: 190px;
+    
+    position: absolute;
+    top:69px;
+    left:98px;
+    background-size:100%;
+    font-family: 'Asap', sans-serif;  
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    z-index: 44;
+    line-height: 35px;
+    text-align: center;
+    
+}
+
+
+
+#box{
+
+    height:140px;
+    width: 140px;
+    background-image: url('../pictures/imagessz/kisspng-watercolor-flowers-watercolor-painting-pink-flowe-rose-5a995a2ca2deb2.8231926415199995326671.png');
+    position: absolute;
+    top:2240px;
+right:0px;
+    z-index: 40;
+    background-size: 100%;
+}
+
+#box490{
+
+    height:100px;
+    width: 100px;
+    background-image: url('../pictures/imagessz/kisspng-watercolor-flowers-watercolor-painting-pink-flowe-rose-5a995a2ca2deb2.8231926415199995326671.png');
+    position: absolute;
+    top:2270px;
+right:90px;
+    z-index: 40;
+    background-size: 100%;
+    transform: rotate(40deg);
+}
+
+#line8989{
+height:400px;
+width: 40px;
+background-image: url("../pictures/imagessz/seesee-17.png");
+position: absolute;
+top:2270x;
+left:0px;
+background-size:100%;
+z-index: 6;
+
+}
+
+/***/
+/*
+.rotating-dashed {
+   
+    
+    height:60px;
+    width: 200px;
+    position:absolute;
+   
+    z-index: 60;
+    top:150px;
+    left:100px;
+    overflow: hidden;
+    color: #ffffff;
+    
+}
+    .dashing {
+      display: block;
+      width: 200px;
+      height: 60px;
+      position: absolute;
+ }      
+      .dashing:nth-of-type(1) { transform: rotate(   0deg ); }
+      .dashing:nth-of-type(2) { transform: rotate(  90deg ); }
+      .dashing:nth-of-type(3) { transform: rotate( 180deg ); }
+      .dashing:nth-of-type(4) { transform: rotate( 270deg ); }
+  
+      i {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200%;
+        border-bottom: 5px dashed;
+        animation: slideDash 2.5s infinite linear;
+      }
+
+  
+ 
+  
+  @keyframes slideDash {
+    from { transform: translateX( -50% ); }
+    to   { transform: translateX(   0% ); }
+  }
+  */
+  .box89891
+{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  width: 190px;
+  height: 60px;
+}
+
+.dashed 
+{
+  background: 
+    linear-gradient(90deg, rgb(255, 255, 255) 50%, transparent 50%),
+    linear-gradient(0deg, rgb(255, 255, 255) 50%, transparent 50%),
+    linear-gradient(90deg, rgb(255, 255, 255) 50%, transparent 50%),
+    linear-gradient(0deg, rgb(255, 255, 255) 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+  background-size: 15px 4px, 4px 15px, 15px 4px, 4px 15px;
+  background-position: left top, right top, left bottom, left top;
+  padding: 4px;
+  animation: border-dance 4s infinite linear;
+}
+	
+@keyframes border-dance 
+{
+  0%
+  {
+    background-position: left top, right top, right bottom, left bottom;
+  }
+  100% 
+  {
+    background-position: right top, right bottom, left bottom, left top;
+  }
+}
+/* hamburger */
+  #button{
+
+    height: 50px;
+    width:50px;
+    background-color: rgba(218, 102, 81, 0);
+    position: fixed;
+    top:15px;
+    left:310px;
+    background-size: 100%;
+    z-index: 114;
+    ;
+
+
+}
+
+.hamburger{
+
+    background-image: url('../pictures/page22/woohoo-07.png');
+    height:100%;
+    width:100%;
+    position:fixed;
+    top:0px;
+    right:0px;
+    background-size: 100%;
+    z-index: 50;
+    background-repeat: no-repeat;
+    display: none;
+  
+    
+    
+}
+
+.hello{
+
+    background-color: rgba(23, 110, 110, 0);
+    height:50px;
+    width:200px;
+    display: inline-block;
+    position:absolute;
+    top:200px;
+    left:120px;
+}
+
+.infoes22{
+
+    background-color: rgba(23, 110, 110, 0);
+    height:50px;
+    width:200px;
+    display: inline-block;
+    position:absolute;
+    top:320px;
+    left:120px;
+}
+
+.scheduel{
+   
+    height: 100px;
+    width:100px;
+    background-color: rgba(218, 102, 81, 0);
+    position: fixed;
+    top:10px;
+    left:145px;
+    background-size: 100%;
+    z-index: 150;
+    ;
+
+}
+
+
+
+.scheduel2{
+
+        height: 50px;
+        width:50px;
+        background-color: rgba(218, 102, 81, 0);
+        position: fixed;
+        top:15px;
+        left:260px;
+        background-size: 100%;
+        z-index: 114;
+        ;
+    
+    
+    }
+
+#name1{
+
+    color:white;
+    font-size:15px;
+    font-family: 'Asap', sans-serif;
+    position: absolute;
+    top:65px;
+        left:160px;
+        z-index: 130;
+}
+
+#name2{
+
+    color:white;
+    font-size:15px;
+    font-family: 'Asap', sans-serif;
+    position: absolute;
+    top:65px;
+        left:40px;
+        z-index: 130;
+}
+/* uiyo */
+
+.info{
+   
+    background-color: rgba(72, 155, 155, 0);
+    height:200px;
+    width:260px;
+    background-size: 100%;
+    
+    position:absolute;
+    top:1120px;
+    left:90px;
+    z-index: 3;
+}
+
+.infoes{
+
+    background-color: rgba(72, 155, 155, 0.707);
+    height:200px;
+    width:260px;
+    background-size: 100%;
+    position:absolute;
+    top:1120px;
+    left:90px;
+    z-index: 3;
+
+}

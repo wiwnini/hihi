@@ -1,0 +1,344 @@
+#main{
+
+    height: 1334px;
+    width:375px;
+    background-image: url('../pictures/page3/imold-12.png');    
+    background-size: 100%;
+    }
+    
+    #navigation{
+    
+        width:375px;
+        height:10px;
+        position: fixed;
+        
+        z-index: 113;
+    }
+    
+    #icon1{
+    
+        height: 50px;
+        width:50px;
+        background-image: url("../pictures/imagessz/icon_\ 3.png");
+        position: fixed;
+        top:15px;
+        left:310px;
+        background-size: 100%;
+        z-index: 115;
+        
+    }
+    
+    
+    #icon2{
+    
+        height: 50px;
+        width:50px;
+        background-image: url("../pictures/imagessz/icon_\ 2.png");
+        position: fixed;
+        top:15px;
+        left:260px;
+        background-size: 100%;
+        z-index: 115;
+    }
+    
+    
+    #icon3{
+    
+        height: 50px;
+        width:50px;
+        background-image: url("../pictures/imagessz/icon_\ 1.png");
+        position: fixed;
+        top:15px;
+        left:210px;
+        background-size: 100%;
+        z-index: 115;
+    }
+
+    #line{
+
+        background-image: url('../pictures/page22/working\ 2-08.png');
+        background-size: 100%;
+        height:350px;
+        width:20px;
+        position:absolute;
+        left:30px;
+    }
+    
+
+#design1{
+
+    background-image:url('../pictures/page3/designs-11.png') ;
+    background-size: 100%;
+    height: 250px;
+    width: 240px;
+    position: absolute;
+    top:100px;
+    right:0px;
+    
+
+}
+
+#design2{
+
+    background-image:url('../pictures/page3/desgn2-11.png') ;
+    background-size: 100%;
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top:100px;
+    right:0px;
+}
+
+#design3{
+
+    background-image: url('../pictures/page3/desg-11.png');
+    background-size: 100%;
+    height: 210px;
+    width: 200px;
+    position: absolute;
+    top:50px;
+    right:0px;
+    
+}
+
+#design4{
+
+    background-image: url('../pictures/page3/menheraa.webp');
+    background-size: 100%;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top:130px;
+    right:20px;
+    
+}
+
+
+#headline{
+
+    transform: rotate(-90deg);
+    font-size:27px;
+    font-family: 'Asap', sans-serif;
+    position: absolute;   
+    top:200px;
+    left:-43px;
+    color:#bf006b ;
+}
+
+#blob{
+
+    background-image: url('../pictures/page22/working\ 2-10.png');
+    position:absolute;
+    left:20px;
+    top:300px;
+    height:55px;
+    width:50px;
+    background-size: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.694));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.687));
+}
+
+#blob2{
+
+    background-image: url('../pictures/page3/kkmkm-13.png');
+    position:absolute;
+    left:32px;
+    top:370px;
+    height:30px;
+    width:30px;
+    background-size: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.877));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.891));
+}
+
+#blob4{
+
+    background-image: url('../pictures/page3/kkmkm-13.png');
+    position:absolute;
+    left:320px;
+    top:1270px;
+    height:30px;
+    width:30px;
+    background-size: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.877));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.891));
+}
+
+#blob3{
+
+    background-image: url('../pictures/page3/kkmkm-13.png');
+    position:absolute;
+    left:32px;
+    top:418px;
+    height:30px;
+    width:30px;
+    background-size: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.877));
+    filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.891));
+}
+#text{
+
+    
+    height:600px;
+    width:240px;
+    position: absolute;
+    top:370px;
+    left:110px;
+    font-size:15px;
+    font-family: 'Asap', sans-serif;
+    position: absolute;   
+    letter-spacing:0.5px;
+    line-height: 40.5px;
+    color:#bf006b ;
+    
+}
+
+.arrows {
+    position: absolute;
+    color: white;
+    top:1270px;
+    animation: arrows 1s infinite;
+    animation-iteration-count: infinite;
+     -webkit-animation: arrows 1s;  /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
+  }
+  @keyframes arrows {
+    0% {
+      left: 10%;
+    }
+    100% {
+      left: 60%;
+    }
+  }
+
+  .arrows2 {
+    position: absolute;
+    color: #ff6a89;
+    top:1273px;
+    animation: arrows 1s infinite;
+    animation-iteration-count: infinite;
+     -webkit-animation: arrows 1s;  /* Chrome, Safari, Opera */
+      -webkit-animation-iteration-count: infinite;  /* Chrome, Safari, Opera */
+  }
+  @keyframes arrows {
+    0% {
+      left: 5%;
+    }
+    100% {
+      left: 53%;
+    }
+  }
+
+.back{
+    height: 1334px;
+    width:50px;
+    background-color: rgba(245, 222, 179, 0);
+    display: inline-block;
+    position:absolute;
+}
+
+/* hamburger */
+#button{
+
+    height: 50px;
+    width:50px;
+    background-color: rgba(218, 102, 81, 0);
+    position: fixed;
+    top:15px;
+    left:310px;
+    background-size: 100%;
+    z-index: 114;
+    ;
+
+
+}
+
+.hamburger{
+
+    background-image: url('../pictures/page22/woohoo-07.png');
+    height:667px;
+    width:375px;
+    position:fixed;
+    top:0px;
+    right:0px;
+    background-size: 100%;
+    z-index: 112;
+    background-repeat: no-repeat;
+    display: none;
+  
+    
+    
+}
+
+.hello{
+
+    background-color: rgba(23, 110, 110, 0);
+    height:50px;
+    width:200px;
+    display: inline-block;
+    position:absolute;
+    top:200px;
+    left:120px;
+}
+
+.infoes22{
+
+    background-color: rgba(23, 110, 110, 0);
+    height:50px;
+    width:200px;
+    display: inline-block;
+    position:absolute;
+    top:320px;
+    left:120px;
+}
+
+.scheduel{
+   
+    background-color: rgba(121, 226, 226, 0);
+    height:100px;
+    width:100px;
+    background-size: 100%;
+    
+    position:absolute;
+    top:5px;
+    left:145px;
+    z-index: 200;
+}
+
+
+.scheduel2{
+
+    height: 50px;
+    width:50px;
+    background-color: rgba(218, 102, 81, 0);
+    position: fixed;
+    top:15px;
+    left:260px;
+    background-size: 100%;
+    z-index: 114;
+    ;
+
+
+}
+
+#name1{
+
+color:white;
+font-size:15px;
+font-family: 'Asap', sans-serif;
+position: absolute;
+top:65px;
+    left:160px;
+    z-index: 130;
+}
+
+#name2{
+
+color:white;
+font-size:15px;
+font-family: 'Asap', sans-serif;
+position: absolute;
+top:65px;
+    left:40px;
+    z-index: 130;
+}
